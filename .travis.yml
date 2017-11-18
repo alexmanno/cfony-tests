@@ -4,6 +4,6 @@ os: osx
 
 install:
   - brew install cmake || brew upgrade cmake 
-  - mkdir build && cd build && cmake --target all -- -j 2 .. && make cfony && make cfony_tests && cd ..
+  - make compile-all
 
 script: make run-tests 
