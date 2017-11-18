@@ -1,5 +1,9 @@
 language: cpp
+
 os: osx
-install: mkdir build && cd build && cmake --target all -- -j 2 .. && make cfony && make cfony_tests
+
+install:
+  - brew install cmake || brew upgrade cmake 
+  - mkdir build && cd build && cmake --target all -- -j 2 .. && make cfony && make cfony_tests
 
 script: make run-tests 
