@@ -1,5 +1,5 @@
 make-build:
-	@rm -r build && mkdir build
+	rm -rf build && mkdir build
 
 compile-cfony-general: make-build
 	cd build && cmake --target all -- -j 2 ..
