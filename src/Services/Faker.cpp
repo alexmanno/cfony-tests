@@ -3,6 +3,7 @@
 //
 
 #include "Faker.h"
+#include <cstdlib>
 
 Faker::Faker() {
     lastindex = 0;
