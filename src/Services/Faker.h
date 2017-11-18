@@ -17,6 +17,8 @@ private:
     int lastindex;
     std::map<int, std::string> names;
 public:
+    unsigned long count();
+
     int getLastindex() const;
 
     void setLastindex(int lastindex);
@@ -28,6 +30,8 @@ public:
     void addName(std::string& name);
 
     std::string getRandomName();
+
+    void clear();
 };
 
 
