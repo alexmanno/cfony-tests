@@ -1,4 +1,5 @@
 # cfony-tests
+[![Build Status](https://travis-ci.org/alexmanno/cfony-tests.svg?branch=master)](https://travis-ci.org/alexmanno/cfony-tests)
 Having fun with C++11 and UnitTests
 
 ## Build
