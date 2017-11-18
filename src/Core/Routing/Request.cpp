@@ -2,7 +2,7 @@
 // Created by Alessandro Manno on 18/11/2017.
 //
 
-#include "Route.h"
+#include "Request.h"
 
 const std::string &Route::getMethod() const {
     return method;

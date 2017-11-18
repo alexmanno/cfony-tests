@@ -4,7 +4,7 @@
 
 #include <sstream>
 #include <regex>
-#include "RouteBuilder.h"
+#include "RequestBuilder.h"
 
 Route RouteBuilder::getRouteFromRequest(std::string request) {
     Route route;

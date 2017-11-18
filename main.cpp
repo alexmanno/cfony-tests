@@ -1,6 +1,6 @@
 #include <iostream>
 #include "src/Services/Faker.h"
-#include "src/Core/Routing/RouteBuilder.h"
+#include "src/Core/Routing/RequestBuilder.h"
 
 
 std::string getRequestFromArgv(int argc, char *argv[]) {
